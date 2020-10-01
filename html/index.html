@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script>
+        //Json serialisation
+        let student = { id: 2, Name: "Anton", Age: 18 }
+        let serialized = JSON.stringify(student);
+        document.write(serialized);
+
+        document.write("<br>");
+
+        //Json array
+        let studentArray = [
+            { Id: 0, FirstName: "Anton", LastName: "Tymoshchuk" },
+            { Id: 1, FirstName: "Ivan", LastName: "Lobov" },
+            { Id: 2, FirstName: "Petro", LastName: "Bereza" }
+        ];
+        let arrayJSON = JSON.stringify(studentArray);
+        document.write(arrayJSON);
+    </script>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <p>Hello</p>
+</body>
+
+</html>
